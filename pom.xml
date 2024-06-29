@@ -14,11 +14,15 @@
 
   <properties>
 
-       <!-- SonarQube server URL -->
-        <sonar.host.url>https://sonarcloud.io/</sonar.host.url>
-              <sonar.projectKey>sonarmaventest_jenkins</sonar.projectKey>
-        <!-- Organization key (if applicable) -->
-        <sonar.organization>sonarmaventest</sonar.organization>
+      <!-- SonarQube server URL -->
+<sonar.host.url>
+https://sonarcloud.io/</sonar.host.url>
+<!-- SonarQube authentication token or username/password -->
+<sonar.login>03438150f803fcfb88855bdb816143d3376a7f21</sonar.login>
+<!-- Project key -->
+<sonar.projectKey>vamsi12_vamsi</sonar.projectKey>
+<!-- Organization key (if applicable) -->
+<sonar.organization>vamsi12</sonar.organization>
      <!-- Generic properties -->
     <java.version>11</java.version>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
